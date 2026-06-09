@@ -11,8 +11,8 @@ jobs:
     name: Update postal codes
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.0.2
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v6.0.3
+      - uses: ruby/setup-ruby@v1.310.0
         with:
           ruby-version: '4.0'
           bundler-cache: true
