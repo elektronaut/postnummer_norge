@@ -4,6 +4,9 @@ require "bundler/gem_tasks"
 require "net/http"
 require "uri"
 
+# release-please creates the tag and the release commit.
+Rake::Task["release:source_control_push"].clear
+
 desc "Update postal codes"
 task :update_codes do
   url = "https://www.bring.no/postnummerregister-ansi.txt"
