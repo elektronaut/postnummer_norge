@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.version     = PostnummerNorge::VERSION
   s.authors     = ["Inge Jørgensen"]
   s.email       = ["inge@anyone.no"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/elektronaut/postnummer_norge"
+  s.license     = "MIT"
   s.summary     = "Norwegian postal codes"
 
   s.required_ruby_version = ">= 3.0.0"
@@ -19,5 +20,11 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_runtime_dependency "rest-client"
-  s.metadata["rubygems_mfa_required"] = "true"
+  s.metadata = {
+    "bug_tracker_uri" => "https://github.com/elektronaut/postnummer_norge/issues",
+    "changelog_uri" => "https://github.com/elektronaut/postnummer_norge/blob/main/CHANGELOG.md",
+    "documentation_uri" => "https://www.rubydoc.info/gems/postnummer_norge",
+    "rubygems_mfa_required" => "true",
+    "source_code_uri" => "https://github.com/elektronaut/postnummer_norge"
+  }
 end
