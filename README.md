@@ -17,11 +17,12 @@ PostalCode.find_by_name("HUNDVÅG").first.code # => '4077'
 
 ## Contributing
 
-Bug reports and pull requests are welcome on
-[GitHub](https://github.com/elektronaut/postnummer_norge). See
-[CONTRIBUTING.md](CONTRIBUTING.md) for how to run the tests and how
-commits are formatted, and note that this project ships with a
-[code of conduct](CODE_OF_CONDUCT.md).
+Bug reports, feature requests, and pull requests are welcome on
+[GitHub](https://github.com/elektronaut/postnummer_norge). Read
+[CONTRIBUTING.md](CONTRIBUTING.md) first; it also covers how to run the
+tests and how commits are formatted. Report security vulnerabilities
+privately as described in [SECURITY.md](SECURITY.md). Note that this
+project ships with a [code of conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
