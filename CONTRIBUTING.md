@@ -59,7 +59,7 @@ Check style before pushing:
 bundle exec rubocop
 ```
 
-## Pull requests
+## Commits and tests
 
 - Add tests for any behavior you change.
 - Write commit messages using
