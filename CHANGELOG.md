@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/elektronaut/postnummer_norge/compare/postnummer_norge/v1.0.1...postnummer_norge/v1.0.2) (2026-10-19)
+
+
+### Bug Fixes
+
+* Update postal codes ([9d0b244](https://github.com/elektronaut/postnummer_norge/commit/9d0b2448f0dd0b442256a91c40572e2af0607ca4))
+
 ## [1.0.1](https://github.com/elektronaut/postnummer_norge/compare/postnummer_norge-v1.0.0...postnummer_norge/v1.0.1) (2026-01-22)
 
 
